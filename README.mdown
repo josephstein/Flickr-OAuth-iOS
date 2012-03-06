@@ -1,0 +1,28 @@
+Flickr iOS OAuth
+===========================
+
+This open source iOS library allows you to integrate Flickr into your iOS application including iPhone, iPad and iPod touch.
+
+Except as otherwise noted, the Flickr iOS OAuth is licensed under the Open Source Initiative - the BSD 2-Clause License.
+
+Getting Started
+===============
+
+See [Flickr User Authentication](http://www.flickr.com/services/api/auth.oauth.html) flow for a detailed description of what's involved behind this project.
+
+This project comes with a sample application that demonstrates authorization, making API calls, and invoking a dialog, to guide you in development.
+
+To build and run the sample application with Xcode:
+
+* Open the included Xcode Project File by selecting _File_->_Open..._ and selecting FlickrDemo.xcodeproj.
+
+* Verify your compiler settings by checking the menu items under _Project_->_Set Active SDK_ and _Project_->_Set Active Executable_. For most developers, the defaults should be OK.
+
+* Replace kConsumerKey, KConsumerSecret, & kCallbackURL in RXViewController.m with your Flickr App credentials
+
+* Finally, select _Build_->_Build and Run_. This should compile the application and launch it.
+
+
+Report Issues/Bugs
+===============
+[Bugs/Questions](mailto:josephstein@me.com)
